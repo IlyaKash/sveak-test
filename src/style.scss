@@ -77,8 +77,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 200px;
-    max-height: calc(1.2em * 9 + 32px);
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
 
@@ -94,6 +92,7 @@ main {
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+        line-height: 1.2em;
     }
 }
 
