@@ -77,7 +77,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 200px;
+    min-height: 200px;
+    max-height: calc(1.2em * 9 + 32px);
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
 
